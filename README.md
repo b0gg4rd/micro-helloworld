@@ -1,7 +1,8 @@
 # Micro Hello World!
 
-The classic implementation of the **Hello World!** with some **microframeworks**:
+The classic **Hello World!** with some _microframeworks_:
 
 - Pippo
 - Spark Java
 - Spring
+
