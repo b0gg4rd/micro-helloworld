@@ -2,7 +2,7 @@
 
 The classic **Hello World!** with some _microframeworks_:
 
-- [Pippo - Micro Java web framework](http://www.pippo.ro/)
-- [Spark Java Framework - A tiny Java web framework](http://sparkjava.com/)
+- [Pippo](http://www.pippo.ro/)
+- [Spark Java Framework](http://sparkjava.com/)
 - [Spring Framework](https://spring.io/)
 
