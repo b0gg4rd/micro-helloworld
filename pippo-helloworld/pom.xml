@@ -19,7 +19,7 @@
     <java.version>1.8</java.version>
     <maven>3.3.9</maven>
     <main.class>net.coatli.java.Application</main.class>
- 
+
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.jdk.source>${java.version}</project.build.jdk.source>
     <project.build.jdk.target>${java.version}</project.build.jdk.target>
@@ -30,7 +30,6 @@
     <exec.maven.plugin.version>1.5.0</exec.maven.plugin.version>
 
     <pippo.version>0.10.0</pippo.version>
-    <junit.version>4.12</junit.version>
   </properties>
 
   <dependencies>
@@ -44,19 +43,11 @@
       <artifactId>pippo-jetty</artifactId>
       <version>${pippo.version}</version>
     </dependency>
-
-    <!-- Test -->
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>
     <finalName>pippo-helloworld</finalName>
-    
+
     <!-- Defining the plugin stack -->
     <plugins>
       <plugin>
