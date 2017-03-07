@@ -13,7 +13,7 @@ The first time just use:
 
 `$ mvn -N io.takari:maven:wrapper`
 
-For develop cycle use:
+For execute use:
 
 `$ ./mvnw clean package exec:exec`
 
