@@ -1,4 +1,4 @@
-# Spring Hello World!
+# Spring - Hello World!
 
 The classic **Hello World!** for **Spring**.
 

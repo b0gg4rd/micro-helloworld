@@ -1,6 +1,6 @@
-# Pippo Hello World!
+# Pippo - Hello World!
 
-The classic **Hello World!** for **Pippo** _microframework_.
+The classic **Hello World!** for **Pippo**.
 
 ## Requirements
 

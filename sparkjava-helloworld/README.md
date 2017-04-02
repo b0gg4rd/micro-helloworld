@@ -1,6 +1,6 @@
-# Spark Java Hello World!
+# Spark Java - Hello World!
 
-The classic **Hello World!** for **Spark Java** _microframework_.
+The classic **Hello World!** for **Spark Java**.
 
 ## Requirements
 
