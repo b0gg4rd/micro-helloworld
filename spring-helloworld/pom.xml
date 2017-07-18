@@ -28,7 +28,7 @@
 
     <start-class>net.coatli.java.Application</start-class>
     <java.version>1.8</java.version>
-    <maven>3.3.9</maven>
+    <maven>3.5.0</maven>
   </properties>
 
   <dependencies>
