@@ -8,3 +8,4 @@ The classic **Hello World!** with some _microframeworks_:
 - [Spark Java](http://sparkjava.com/)
 - [Spring](https://spring.io/)
 
+![microframeworks](microframeworks.png)
