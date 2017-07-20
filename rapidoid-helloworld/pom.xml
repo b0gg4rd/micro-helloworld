@@ -41,7 +41,7 @@
   </dependencies>
 
   <build>
-    <finalName>rapidoid-helloworld</finalName>
+    <finalName>${project.artifactId}</finalName>
 
     <!-- Defining the plugin stack -->
     <plugins>
@@ -86,7 +86,7 @@
           <executable>java</executable>
           <arguments>
             <argument>-jar</argument>
-            <argument>target/${project.build.finalName}.${project.packaging}</argument>
+            <argument>${project.build.directory}/${project.build.finalName}.${project.packaging}</argument>
           </arguments>
         </configuration>
       </plugin>
