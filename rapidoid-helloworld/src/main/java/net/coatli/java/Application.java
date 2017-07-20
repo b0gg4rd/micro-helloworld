@@ -1,13 +1,13 @@
 package net.coatli.java;
 
-import org.rapidoid.setup.On;
+import static org.rapidoid.setup.On.get;
 
 public class Application {
 
   public static void main(String[] args) {
 
-	On.get("/").json(() -> "Hello World!");
-  
+  get("/").json(() -> "Hello World!");
+
   }
 }
 

@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class Application {
 
   public static void main(final String[] args) {
-    
-	SpringApplication.run(Application.class, args);
-  
+
+  SpringApplication.run(Application.class, args);
+
   }
 
   @GetMapping("/")
   public String index() {
-    
+
     return "Hello World!";
-  
+
   }
 
 }

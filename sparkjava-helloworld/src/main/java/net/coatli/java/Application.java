@@ -6,8 +6,8 @@ public class Application {
 
   public static void main(final String[] args) {
 
-	get("/", (req, res) -> "Hello World!");
-  
+  get("/", (req, res) -> "Hello World!");
+
   }
 }
 
