@@ -20,6 +20,7 @@
     <maven>3.5.0</maven>
     <main.class>net.coatli.java.microservice.PippoHelloWorldApplication</main.class>
 
+    <project.build.resourcesDirectory>${basedir}/src/main/resources</project.build.resourcesDirectory>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.jdk.source>${java.version}</project.build.jdk.source>
     <project.build.jdk.target>${java.version}</project.build.jdk.target>
@@ -65,8 +66,13 @@
   </repositories>
 
   <build>
-    <finalName>${project.artifactId}</finalName>
-
+    <resources>
+      <resource>
+        <directory>${project.build.resourcesDirectory}</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    
     <!-- Defining the plugin stack -->
     <plugins>
       <plugin>
