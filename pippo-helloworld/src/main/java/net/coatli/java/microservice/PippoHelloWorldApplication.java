@@ -7,7 +7,7 @@ public class PippoHelloWorldApplication extends Application {
 
   public static void main(final String[] args) {
 
-    new Pippo(new PippoHelloWorldApplication()).start();;
+    new Pippo(new PippoHelloWorldApplication()).start();
 
   }
 
