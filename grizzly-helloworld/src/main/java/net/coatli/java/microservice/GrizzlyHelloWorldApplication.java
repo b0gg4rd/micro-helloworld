@@ -12,15 +12,12 @@ public class GrizzlyHelloWorldApplication {
   public static void main(final String[] args) throws IOException {
 
     final HttpServer server = HttpServer.createSimpleServer();
-    server.getServerConfiguration().addHttpHandler(
-        new HttpHandler() {
-            @Override
-            public void service(final Request request, final Response response) throws Exception {
-                response.setContentType("text/plain");
-                //response.setContentLength(date.length());
-                response.getWriter().write("Hello World!");
-            }
-        }, "/");
+    server.getServerConfiguration().addHttpHandler(new HttpHandler() {
+      @Override
+      public void service(final Request request, final Response response) throws Exception {
+          response.getWriter().write("Hello World!");
+      }
+    }, "/");
     server.start();
     System.out.println("Press any key to stop the server...");
     System.in.read();
