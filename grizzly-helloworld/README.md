@@ -1,4 +1,4 @@
-# Grizzly - Hello World!
+# Grizzly - Hello World
 
 The classic **Hello World!** for **Grizzly**.
 

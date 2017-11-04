@@ -1,4 +1,4 @@
-# Netty - Hello World!
+# Netty - Hello World
 
 The classic **Hello World!** for **Netty**.
 

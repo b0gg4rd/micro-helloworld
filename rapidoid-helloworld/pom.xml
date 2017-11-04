@@ -7,18 +7,18 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>net.coatli.java</groupId>
+  <groupId>net.coatli.java.microhelloworld</groupId>
   <artifactId>rapidoid-helloworld</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Rapidoid Hello World</name>
-  <description>The classic hello world example for Rapidoid microframework.</description>
+  <name>Rapidoid - Hello World</name>
+  <description>The classic Hello World! for Rapidoid</description>
 
   <properties>
     <java.version>1.8</java.version>
     <maven>3.3.9</maven>
-    <main.class>net.coatli.java.Application</main.class>
+    <main.class>net.coatli.java.microhelloworld.RapidoidHelloWorldApplication</main.class>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.jdk.source>${java.version}</project.build.jdk.source>

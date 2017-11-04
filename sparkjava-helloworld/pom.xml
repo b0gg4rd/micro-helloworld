@@ -7,18 +7,18 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>net.coatli.java</groupId>
+  <groupId>net.coatli.java.microhelloworld</groupId>
   <artifactId>sparkjava-helloworld</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Spark Java Hello World</name>
-  <description>The classic hello world example for Spark Java microframework.</description>
+  <name>Spark Java - Hello World</name>
+  <description>The classic Hello World! for Spark Java</description>
 
   <properties>
     <java.version>1.8</java.version>
     <maven>3.5.0</maven>
-    <main.class>net.coatli.java.Application</main.class>
+    <main.class>net.coatli.java.microhelloworld.SparkJavaHelloWorldApplication</main.class>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.jdk.source>${java.version}</project.build.jdk.source>

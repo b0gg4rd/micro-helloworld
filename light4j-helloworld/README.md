@@ -1,6 +1,6 @@
-# Light 4J - Hello World!
+# Light4J - Hello World
 
-The classic **Hello World!** for **Light 4J**.
+The classic **Hello World!** for **Light4J**.
 
 ## Requirements
 

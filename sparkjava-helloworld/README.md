@@ -1,4 +1,4 @@
-# Spark Java - Hello World!
+# Spark Java - Hello World
 
 The classic **Hello World!** for **Spark Java**.
 

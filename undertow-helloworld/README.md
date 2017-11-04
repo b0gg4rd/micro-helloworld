@@ -1,4 +1,4 @@
-# Undertow - Hello World!
+# Undertow - Hello World
 
 The classic **Hello World!** for **Undertow**.
 

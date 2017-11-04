@@ -1,4 +1,4 @@
-# Pippo - Hello World!
+# Pippo - Hello World
 
 The classic **Hello World!** for **Pippo**.
 

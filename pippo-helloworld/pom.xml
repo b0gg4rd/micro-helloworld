@@ -7,18 +7,18 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>net.coatli.java.microservice</groupId>
+  <groupId>net.coatli.java.microhelloworld</groupId>
   <artifactId>pippo-helloworld</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Pippo Hello World</name>
-  <description>The classic hello world example for Pippo microframework.</description>
+  <name>Pippo - Hello World</name>
+  <description>The classic Hello World! for Pippo</description>
 
   <properties>
     <java.version>1.8</java.version>
     <maven>3.5.0</maven>
-    <main.class>net.coatli.java.microservice.PippoHelloWorldApplication</main.class>
+    <main.class>net.coatli.java.microhelloworld.PippoHelloWorldApplication</main.class>
 
     <project.build.resourcesDirectory>${basedir}/src/main/resources</project.build.resourcesDirectory>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

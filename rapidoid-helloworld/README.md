@@ -1,4 +1,4 @@
-# Rapidoid - Hello World!
+# Rapidoid - Hello World
 
 The classic **Hello World!** for **Rapidoid**.
 
