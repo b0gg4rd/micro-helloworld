@@ -1,4 +1,4 @@
-package net.coatli.java.microservice;
+package net.coatli.java.microhelloworld;
 
 import java.io.IOException;
 

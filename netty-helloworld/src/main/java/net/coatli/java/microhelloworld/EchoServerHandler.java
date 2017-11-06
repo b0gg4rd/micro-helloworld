@@ -1,4 +1,4 @@
-package net.coatli.java.microservice;
+package net.coatli.java.microhelloworld;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;

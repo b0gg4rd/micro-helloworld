@@ -1,4 +1,4 @@
-package net.coatli.java.microservice;
+package net.coatli.java.microhelloworld;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -13,7 +13,7 @@ import io.netty.handler.logging.LoggingHandler;
 
 public class NettyHelloWorldApplication {
 
-  public static void main(final String[] args) {
+  public static void main(final String[] args) throws InterruptedException {
 
     final EventLoopGroup bossGroup = new NioEventLoopGroup(1);
     final EventLoopGroup workerGroup = new NioEventLoopGroup();
@@ -31,7 +31,7 @@ public class NettyHelloWorldApplication {
             }
           });
       // Start the server.
-      final ChannelFuture f = server.bind(PORT).sync();
+      final ChannelFuture f = server.bind(8080).sync();
       // Wait until the server socket is closed.
       f.channel().closeFuture().sync();
     } finally {
