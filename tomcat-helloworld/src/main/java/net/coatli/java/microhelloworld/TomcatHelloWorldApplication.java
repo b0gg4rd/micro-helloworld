@@ -1,6 +1,5 @@
 package net.coatli.java.microhelloworld;
 
-import java.io.File;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
@@ -19,7 +18,7 @@ public class TomcatHelloWorldApplication {
     final Tomcat tomcat = new Tomcat();
     tomcat.setPort(8080);
 
-    final Context context = tomcat.addContext("", new File(".").getAbsolutePath());
+    final Context context = tomcat.addContext("", "/tmp");
 
     Tomcat.addServlet(context, "helloworld", new HttpServlet() {
 
