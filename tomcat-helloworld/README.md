@@ -1,6 +1,6 @@
 # Maven Java Building
 
-Basic building structure with **Apache Maven** for **Java** development.
+The classic **Hello World!** for **Undertow**.
 
 ## Requirements
 
