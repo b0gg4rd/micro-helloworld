@@ -1,6 +1,6 @@
 # Micro Hello World!
 
-The classic **Hello World!** with with:
+The classic **Hello World!** with:
 
 - [Grizzly](https://javaee.github.io/grizzly/)
 - [Jetty](https://www.eclipse.org/jetty/)

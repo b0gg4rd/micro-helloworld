@@ -1,4 +1,4 @@
-# Maven Java Building
+# Tomcat - Hello World
 
 The classic **Hello World!** for **Undertow**.
 

@@ -1,4 +1,4 @@
-# Jetty Hello World
+# Jetty - Hello World
 
 The classic **Hello World!** for **Jetty**.
 
