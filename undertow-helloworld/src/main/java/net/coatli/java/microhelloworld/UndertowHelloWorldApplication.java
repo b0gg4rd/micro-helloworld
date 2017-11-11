@@ -1,5 +1,7 @@
 package net.coatli.java.microhelloworld;
 
+import static io.undertow.Handlers.path;
+
 import org.xnio.Options;
 
 import io.undertow.Undertow;
@@ -19,10 +21,10 @@ public class UndertowHelloWorldApplication {
       .setServerOption(UndertowOptions.ALWAYS_SET_DATE, true)
       .setServerOption(UndertowOptions.RECORD_REQUEST_START_TIME, false)
       .setWorkerThreads(200)
-      .setHandler((exchange) -> {
+      .setHandler(path().addPrefixPath("/", (exchange) -> {
         exchange.getResponseHeaders().put(Headers.CONTENT_TYPE, "text/plain");
         exchange.getResponseSender().send("Hello World");
-      })
+      }))
       .build().start();
 
   }
