@@ -17,7 +17,8 @@ public class GrizzlyHelloWorldApplication {
       public void service(final Request request, final Response response) throws Exception {
           response.getWriter().write("Hello World!");
       }
-    }, "/");
+    }, "/hello");
+
     server.start();
     System.out.println("Press any key to stop the server...");
     System.in.read();
