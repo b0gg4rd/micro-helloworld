@@ -1,8 +1,8 @@
-package net.coatli.java;
+package net.coatli.java.microhelloworld;
 
 import static org.rapidoid.setup.On.get;
 
-public class Application {
+public class RapidoidHelloWorldApplication {
 
   public static void main(String[] args) {
 
